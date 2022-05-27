@@ -1,0 +1,53 @@
+{
+	"items": [{
+			"name": "A",
+			"price": 10.00
+		},
+		{
+			"name": "B",
+			"price": 9.00
+		},
+		{
+			"name": "X",
+			"price": 10.00
+		},
+		{
+			"name": "Y",
+			"price": 5.00
+		},
+		{
+			"name": "Z",
+			"price": 4.00
+		},
+		{
+			"name": "P",
+			"price": 3.00
+		},
+		{
+			"name": "Q",
+			"price": 8.00
+		},
+		{
+			"name": "R",
+			"price": 2.00
+		}
+	],
+	"offerItem": [{
+			"name": "A",
+			"quantity": 1,
+			"discountItem": {
+				"name": "B",
+				"discountPercent": 50
+			}
+		},
+		{
+			"name": "X",
+			"quantity": 1,
+			"discountItem": {
+				"name": "Y",
+				"discountPercent": 100
+			}
+		}
+
+	]
+}
